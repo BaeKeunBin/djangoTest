@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+
+<body>
+
+    <div class="page-header">
+        <h1><a href="/">Bae keun bin django Test</a></h1>
+    </div>
+    
+    <div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+            {% block test %}
+            {% endblock %}
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
